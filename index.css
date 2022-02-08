@@ -1,7 +1,14 @@
-.navbar {
+body {
   /* background-color: black; */
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar {
+  /* background-color: tomato; */
+  display: flex;
   justify-content: flex-end;
+  width: 100%;
 }
 .navbar a {
   padding-right: 1%;
@@ -9,22 +16,30 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 100%; /* de7k, I HATE CSS*/
+  height: 1000px; /* de7k, I HATE CSS*/
+  width: 70%;
+  /* background-color: yellow; */
+  padding-top: 35%;
+  align-items: center;
 }
 .searchbar {
   width: 70%;
+  height: 40px;
   margin: 0 auto;
-  margin-top: 40%;
-  border-radius: 10px;
+  /* margin-top: 40%; */
+  border-radius: 25px;
+  font-size: 100%;
+  padding: 5px;
 }
 .buttons {
+  margin-top: 2%;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  width: fit-content;
+  /* background-color: red; */
 }
 .button {
   width: fit-content;
   margin: auto;
-  margin-top: 1%;
   padding: 5px 10px;
+  margin-right: 7%;
 }
