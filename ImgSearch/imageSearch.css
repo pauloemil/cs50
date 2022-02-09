@@ -42,7 +42,9 @@ body {
   margin: auto;
   padding: 5px 10px;
   margin-right: 7%;
+  font-size: large;
 }
+
 body {
   /* background-color: black; */
   display: flex;
@@ -64,7 +66,7 @@ body {
   height: 1000px; /* de7k, I HATE CSS*/
   width: 70%;
   /* background-color: yellow; */
-  padding-top: 35%;
+  padding-top: 5%;
   align-items: center;
 }
 .searchbar {
@@ -81,4 +83,11 @@ body {
   margin: auto;
   padding: 5px 10px;
   margin-top: 2%;
+}
+#Glogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 50%;
 }
