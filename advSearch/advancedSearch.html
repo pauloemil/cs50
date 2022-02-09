@@ -10,27 +10,28 @@
     </div>
     <form class="container" action="https://www.google.com/search">
       <h3>Find pages with...</h3>
-
       <!-- 
         https://www.google.com/search?as_q=1&as_epq=2&as_oq=3&as_eq=4
        -->
       <div class="thing">
-        <h5>all these words:</h5>
+        <label for="">all these words:</label>
         <input class="searchbar" type="text" name="as_q" />
       </div>
       <div class="thing">
-        <h5>this exact word or phrase:</h5>
+        <label for="">this exact word or phrase:</label>
         <input class="searchbar" type="text" name="as_epq" />
       </div>
       <div class="thing">
-        <h5>any of these words:</h5>
+        <label for="">any of these words:</label>
         <input class="searchbar" type="text" name="as_oq" />
       </div>
       <div class="thing">
-        <h5>none of these words:</h5>
+        <label for="">none of these words:</label>
         <input class="searchbar" type="text" name="as_eq" />
       </div>
-      <input class="button" type="submit" value="Advanced Search" />
+      <div class="buttons">
+        <input class="button" type="submit" value="Advanced Search" />
+      </div>
     </form>
   </body>
 </html>
